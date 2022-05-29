@@ -27,8 +27,8 @@ class Lcrp_Admin_Menu{
          */
 
         add_menu_page(
-            esc_html__( "LD Course Review Pro", $this->menu_slug ),
-            'LD Course Review Pro',
+            esc_html__( "LearnDash Course Review Pro", $this->menu_slug ),
+            'LearnDash Course Review Pro',
             'manage_options',
             'lcrp_setting',
             array($this,'lcrp_all_reviews_page'),'dashicons-star-empty',66
