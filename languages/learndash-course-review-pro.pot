@@ -1,0 +1,134 @@
+
+# LearnDash Course Review Pro (Free) Plugin has been developed exclusively for LearnDash by WorldWin Coder Pvt. Ltd. It enables you to review courses, quizzes, and lessons. 
+msgid ""
+msgstr ""
+
+"Project-Id-Version: LearnDash Course Review Pro Free 1.0.0 \n"
+"POT-Creation-Date: 2022-05-29 14:31+0530\n"
+"PO-Revision-Date: 2022-05-29 14:31+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Plugin Name of the plugin
+msgid "LearnDash Course Review Pro Free"
+msgstr ""
+
+#. Description of the plugin
+msgid "LearnDash Course Review Pro (Free) Plugin has been developed exclusively for LearnDash by WorldWin Coder Pvt. Ltd. It enables you to review courses, quizzes, and lessons. "
+msgstr ""
+
+#. Author of the plugin
+msgid "WorldWin Coder Pvt Ltd"
+msgstr ""
+
+#: learndash-course-review-pro.php:251
+msgid "Get Pro"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:30
+msgid "LD Course Review Pro"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:44
+msgid "All Reviews"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:58
+msgid "Pending Reviews"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:71
+msgid "Trash Reviews"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:110
+msgid "ID"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:111
+msgid "Review Heading"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:112
+msgid "Review Description"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:113
+msgid "Rating"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:114
+msgid "Date"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:115
+msgid "Course"
+msgstr ""
+
+#: include/class-lcrp-admin-menu.php:121
+msgid "No Feedback & Review Found"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:71
+msgid "Thank You for review"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:73
+msgid "Sytem Error !!!!"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:101
+msgid "Thank You for review"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:103
+msgid "Sytem Error !!!!"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:107
+msgid "Please give rating"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:110
+msgid "No More Fun Please!!!!"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:113
+msgid "Review Description is empty"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:116
+msgid "Review Heading is empty"
+msgstr ""
+
+#: include/class-lcrp-form-submitted-data.php:119
+msgid "No More Fun Please!!!!"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:52
+msgid "Course Reviews & Rating"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:56
+msgid "Write a review"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:82
+msgid "average based on 1 review"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:86
+msgid "average based on"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:89
+msgid "No review yet"
+msgstr ""
+
+#: include/class-lcrp-get-all-review-rating.php:225
+msgid "No review yet"
+msgstr ""
