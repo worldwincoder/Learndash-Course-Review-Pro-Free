@@ -68,9 +68,9 @@ class Lcrp_Review_Form_Data{
                                 $insert_id = $wpdb->insert_id;
                                 do_action( 'lcrp_new_review_data', $insert_id );
                                 if ($insert_id) {
-                                    $result = esc_html__('Thank You for review', 'learndash-course-review-pro' );
+                                    $result = esc_html__('Thank You for review', 'learndash-course-review-pro-free' );
                                 }else{
-                                    $result = esc_html__('Sytem Error !!!!', 'learndash-course-review-pro' );
+                                    $result = esc_html__('Sytem Error !!!!', 'learndash-course-review-pro-free' );
                                 }
                             }else{
                                 global $wpdb;
@@ -98,25 +98,25 @@ class Lcrp_Review_Form_Data{
                                     do_action( 'lcrp_update_review_data');
 
 
-                                    $result = esc_html__('Thank You for review', 'learndash-course-review-pro' );
+                                    $result = esc_html__('Thank You for review', 'learndash-course-review-pro-free' );
                                 }else{
-                                    $result = esc_html__('Sytem Error !!!!', 'learndash-course-review-pro' );
+                                    $result = esc_html__('Sytem Error !!!!', 'learndash-course-review-pro-free' );
                                 }
                             }
                         }else{
-                            $result = esc_html__('Please give rating', 'learndash-course-review-pro' );
+                            $result = esc_html__('Please give rating', 'learndash-course-review-pro-free' );
                         }
                     }else{
-                        $result = esc_html__('No More Fun Please!!!!', 'learndash-course-review-pro' );
+                        $result = esc_html__('No More Fun Please!!!!', 'learndash-course-review-pro-free' );
                     }
                 }else{
-                    $result = esc_html__('Review Description is empty.', 'learndash-course-review-pro' );
+                    $result = esc_html__('Review Description is empty.', 'learndash-course-review-pro-free' );
                 }
             }else{
-                $result = esc_html__('Review Heading is empty.', 'learndash-course-review-pro' );                    
+                $result = esc_html__('Review Heading is empty.', 'learndash-course-review-pro-free' );                    
             }
         }else{
-            $result = esc_html__('No More Fun Please!!!!', 'learndash-course-review-pro' );                
+            $result = esc_html__('No More Fun Please!!!!', 'learndash-course-review-pro-free' );                
         }
         wp_send_json_success( $result );
         wp_die(); 

@@ -16,7 +16,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  */
 class Lcrp_Admin_Menu{
 
-    public $menu_slug = 'learndash-course-review-pro';
+    public $menu_slug = 'learndash-course-review-pro-free';
     
 
     public function __construct() {
@@ -107,31 +107,31 @@ class Lcrp_Admin_Menu{
         $table_result = '<div class="lcrp-admin-table-wrapper"><table id="lcrp-admin-review-table">';
             $table_result .= '<thead>';
                 $table_result .= '<tr>';
-                $table_result .= '  <th>'.esc_html__("ID", "learndash-course-review-pro" ).'</th>';
-                $table_result .= '  <th>'.esc_html__("Review Heading", "learndash-course-review-pro" ).'</th>';
-                $table_result .= '  <th>'.esc_html__("Review Description", "learndash-course-review-pro" ).'</th>';
-                $table_result .= '  <th>'.esc_html__("Rating", "learndash-course-review-pro" ).'</th>';
-                $table_result .= '  <th>'.esc_html__("Date", "learndash-course-review-pro" ).'</th>';
-                $table_result .= '  <th>'.esc_html__("Course", "learndash-course-review-pro" ). '</th>';
+                $table_result .= '  <th>'.esc_html__("ID", "learndash-course-review-pro-free" ).'</th>';
+                $table_result .= '  <th>'.esc_html__("Review Heading", "learndash-course-review-pro-free" ).'</th>';
+                $table_result .= '  <th>'.esc_html__("Review Description", "learndash-course-review-pro-free" ).'</th>';
+                $table_result .= '  <th>'.esc_html__("Rating", "learndash-course-review-pro-free" ).'</th>';
+                $table_result .= '  <th>'.esc_html__("Date", "learndash-course-review-pro-free" ).'</th>';
+                $table_result .= '  <th>'.esc_html__("Course", "learndash-course-review-pro-free" ). '</th>';
                 $table_result .= '</tr>';
             $table_result .= '</thead>';
             $table_result .= '<tbody>';
         if (empty($feed_back_data_array)) {
 
-            $table_result .= '<tr><td colspan="6"> '.esc_html__( 'No Feedback & Review Found', 'learndash-course-review-pro' ).'</td></tr>';
+            $table_result .= '<tr><td colspan="6"> '.esc_html__( 'No Feedback & Review Found', 'learndash-course-review-pro-free' ).'</td></tr>';
         }else{
 
             foreach ($feed_back_data_array as $key => $value) {
 
                 $review_details_array = unserialize($value->review_details);
-                $review_heading = esc_html__($review_details_array['review-heading'], 'learndash-course-review-pro' ); 
-                $review_description = esc_html__($review_details_array['review-description'], 'learndash-course-review-pro' );
+                $review_heading = esc_html__($review_details_array['review-heading'], 'learndash-course-review-pro-free' ); 
+                $review_description = esc_html__($review_details_array['review-description'], 'learndash-course-review-pro-free' );
                 $table_data_array  =  '<tr>';
-                $table_data_array .=  '<td>'.esc_html__( $value->id, 'learndash-course-review-pro' ).'</td>';
-                $table_data_array .=  '<td>'.esc_html( stripslashes($review_heading), 'learndash-course-review-pro' ).'</td>';
-                $table_data_array .=  '<td>'.esc_html( stripslashes($review_description), 'learndash-course-review-pro' ).'</td>';
+                $table_data_array .=  '<td>'.esc_html__( $value->id, 'learndash-course-review-pro-free' ).'</td>';
+                $table_data_array .=  '<td>'.esc_html( stripslashes($review_heading), 'learndash-course-review-pro-free' ).'</td>';
+                $table_data_array .=  '<td>'.esc_html( stripslashes($review_description), 'learndash-course-review-pro-free' ).'</td>';
                 $table_data_array .=  '<td>'.$value->review_rating.' | '.$this->admin_get_rating_count($value->review_rating).'</td>';
-                $table_data_array .=  '<td>'.esc_html__( $value->date, 'learndash-course-review-pro' ).'</td>';
+                $table_data_array .=  '<td>'.esc_html__( $value->date, 'learndash-course-review-pro-free' ).'</td>';
                 $table_data_array .=  '<td><a class="lcrp-admin-view-course" target="_blank" href="'.get_post_permalink($value->review_ld_item_id,false,false).'" > <span class="dashicons dashicons-visibility"></span></a></td>';
                 $table_data_array .=  '</tr>';
                 $table_result .= $table_data_array;

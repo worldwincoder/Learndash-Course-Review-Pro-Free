@@ -1,7 +1,7 @@
 ============ Learndash Course Review Pro Free ============
 Contributors: worldwincoder
 Tags: learndash course review, learndash course review pro, learndash course review pro free
-Text Domain: learndash-course-review-pro
+Text Domain: learndash-course-review-pro-free
 Requires at least: 5.5
 Tested up to: 6.0
 Stable tag: 1.0.0
