@@ -49,11 +49,11 @@ class Lcrp_Review_Form{
         echo $lcrp_review_data = '<div class="lcrp-all-rating-top-wrapper">
             <div class="lcrp-review-rating">    
                 <div class="lcrp-review-rating-top-wrapper">
-                    <span class="lcrp-heading">'.esc_html__('Course Reviews & Rating', 'learndash-course-review-pro' ).'</span>
+                    <span class="lcrp-heading">'.esc_html__('Course Reviews & Rating', 'learndash-course-review-pro-free' ).'</span>
                     <p class="lcrp-rate-cont">'.$this->lcrp_count_all_course_reviews($course_id).'</p>                    
                 </div>
                 <div class="lcrp-ask-btn-wrapper">
-                    <span class="lcrp-ask-review">'.esc_html__('Write a review', 'learndash-course-review-pro' ).'</span>
+                    <span class="lcrp-ask-review">'.esc_html__('Write a review', 'learndash-course-review-pro-free' ).'</span>
                 </div>
             </div>
             <hr style="border:1px solid #f1f1f1;margin: 15px 0px;">';
@@ -79,14 +79,14 @@ class Lcrp_Review_Form{
 
         if ($single_course_avg_review_rating == 1) {
 
-            $result_all_reviews = $result_review_count.esc_html__(' average based on 1 review', 'learndash-course-review-pro' );
+            $result_all_reviews = $result_review_count.esc_html__(' average based on 1 review', 'learndash-course-review-pro-free' );
             $result_all_reviews .= $this->get_rating_count($result_review_count);
         }elseif ($single_course_avg_review_rating > 1) {
 
-            $result_all_reviews = $result_review_count.esc_html__(' average based on '.$single_course_avg_review_rating.' review', 'learndash-course-review-pro' );
+            $result_all_reviews = $result_review_count.esc_html__(' average based on '.$single_course_avg_review_rating.' review', 'learndash-course-review-pro-free' );
             $result_all_reviews .= $this->get_rating_count($result_review_count);
         }else{
-            $result_all_reviews = esc_html__('No review yet', 'learndash-course-review-pro' );
+            $result_all_reviews = esc_html__('No review yet', 'learndash-course-review-pro-free' );
         }
 
         return $result_all_reviews;
@@ -232,8 +232,8 @@ class Lcrp_Review_Form{
             foreach ($all_reviews_array as $key => $all_reviews_data) {
 
                 $review_details_array = unserialize($all_reviews_data->review_details);                
-                $review_heading = esc_html__(stripslashes($review_details_array['review-heading']), 'learndash-course-review-pro' );
-                $review_description = esc_html__(stripslashes($review_details_array['review-description']), 'learndash-course-review-pro' ); 
+                $review_heading = esc_html__(stripslashes($review_details_array['review-heading']), 'learndash-course-review-pro-free' );
+                $review_description = esc_html__(stripslashes($review_details_array['review-description']), 'learndash-course-review-pro-free' ); 
                 $user_obj = get_user_by('id', $all_reviews_data->author_id);
                 $all_reviews_data_html .='<div class="lcrp-top-wrapper">';
                     $all_reviews_data_html .='<div class="lcrp-top-wrapper-avatar">';
@@ -252,7 +252,7 @@ class Lcrp_Review_Form{
             }
         }else{
 
-            $all_reviews_data_html .='<span class="">'.esc_html__('No review yet', 'learndash-course-review-pro' ).'</span>';
+            $all_reviews_data_html .='<span class="">'.esc_html__('No review yet', 'learndash-course-review-pro-free' ).'</span>';
         }
         $all_reviews_data_html .= '</div>';
         echo $all_reviews_data_html;
