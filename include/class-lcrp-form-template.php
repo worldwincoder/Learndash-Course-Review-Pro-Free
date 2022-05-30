@@ -20,8 +20,8 @@ if(in_array(get_the_ID(), $logged_in_user_course_list)){
     }else{
         $current_user_review_data = $current_user_review_array['0'];
         $current_user_review = unserialize($current_user_review_data->review_details);
-        $review_heading = esc_html__(stripslashes($current_user_review['review-heading']), 'learndash-course-review-pro' ); 
-        $review_description = esc_html__(stripslashes($current_user_review['review-description']), 'learndash-course-review-pro' ); 
+        $review_heading = esc_html__(stripslashes($current_user_review['review-heading']), 'learndash-course-review-pro-free' ); 
+        $review_description = esc_html__(stripslashes($current_user_review['review-description']), 'learndash-course-review-pro-free' ); 
         $current_user_rating = $current_user_review_data->review_rating;
     }
 }

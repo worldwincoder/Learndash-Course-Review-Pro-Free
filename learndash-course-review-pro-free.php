@@ -14,7 +14,7 @@
  * Version:       1.0.0
  * Author:        WorldWin Coder Pvt Ltd
  * Author URI:    https://worldwincoder.com/
- * Text Domain:   learndash-course-review-pro
+ * Text Domain:   learndash-course-review-pro-free
  * Domain Path:   /languages/
  * License:       GPLv2 or later
  * License URI:   https://www.gnu.org/licenses/gpl-2.0.html
@@ -86,7 +86,7 @@
      */
     if ( !function_exists( 'lcrp_load_textdomain') ):
         function lcrp_load_textdomain() {
-            load_plugin_textdomain( 'learndash-course-review-pro', false, basename( dirname( __FILE__ ) ) . '/languages' );
+            load_plugin_textdomain( 'learndash-course-review-pro-free', false, basename( dirname( __FILE__ ) ) . '/languages' );
         }
     endif;    
     add_action( 'plugins_loaded',
@@ -246,9 +246,9 @@
     if ( !function_exists( 'lcrp_add_plugin_link') ):
         function lcrp_add_plugin_link( $plugin_actions, $plugin_file ) {
             $new_actions = array();
-            if ( basename( plugin_dir_path( __FILE__ ) ) . '/learndash-course-review-pro.php' === $plugin_file ) {
+            if ( basename( plugin_dir_path( __FILE__ ) ) . '/learndash-course-review-pro-free.php' === $plugin_file ) {
                 $lcrp_get_pro_link = 'https://worldwincoder.com/product/learndash-course-review-pro/';
-                $new_actions['lcrp_get_pro'] = sprintf( __( '<a href="%s" target="_blank">Get Pro</a>', 'learndash-course-review-pro' ), esc_url($lcrp_get_pro_link) );
+                $new_actions['lcrp_get_pro'] = sprintf( __( '<a href="%s" target="_blank">Get Pro</a>', 'learndash-course-review-pro-free' ), esc_url($lcrp_get_pro_link) );
             }            
             return array_merge( $new_actions, $plugin_actions );
         }
