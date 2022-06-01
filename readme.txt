@@ -1,7 +1,7 @@
-============ Learndash Course Review Pro Free ============
+============ All In One Course Review ============
 Contributors: worldwincoder
-Tags: learndash course review, learndash course review pro, learndash course review pro free
-Text Domain: learndash-course-review-pro-free
+Tags: All In One Course Review for learndash
+Text Domain: all-in-one-course-review
 Requires at least: 5.5
 Tested up to: 6.0
 Stable tag: 1.0.0
@@ -11,8 +11,7 @@ License: GPLv2 or later
 
 
 ==== Description ====
-LearnDash Course Review Pro (Free) Plugin has been developed exclusively for LearnDash by [WorldWin Coder Pvt. Ltd.](https://worldwincoder.com). It enables you to review courses.
-
+All In One Course Review Plugin has been developed especially for WordPress Learning Management System. It enables you to review courses, quizzes, and lessons.
 
 
 ======== Some of the features: ========
@@ -23,7 +22,7 @@ LearnDash Course Review Pro (Free) Plugin has been developed exclusively for Lea
 First released in May-2022.
 
 = Pro Add-On Features =
-[we now offer Learndash Course Review Pro ](https://worldwincoder.com/product/learndash-course-review-pro/) which extends Learndash Course Review new features:
+[we now offer All In One Course Review Pro ](https://worldwincoder.com/product/all-in-one-course-review/) which extends Course Review new features:
 
 
 
@@ -32,10 +31,13 @@ First released in May-2022.
 From your WordPress dashboard
 
 * Visit 'Plugins > Add new'.
-* Upload  LearnDash Course Review Pro Free Zip .
-* Activate LearnDash Course Review Pro Free from your Plugins page.
+* Upload  All In One Course Review Free Zip .
+* Activate All In One Course Review Free from your Plugins page.
 
 ==== Frequently Asked Questions ====
+
+= Will it work for LearnDash? =
+Absolutely Yes!
 
 = Do I need Pro? =
 Absolutely not! We have been providing rating and review functionality in free plugin. But If you need/want to delete, control review thenyou should go with pro plugin.

@@ -1,0 +1,1 @@
+$(document).ready((function(){$("#aiocr-admin-review-table").DataTable()}));

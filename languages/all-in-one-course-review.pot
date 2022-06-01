@@ -1,0 +1,145 @@
+
+# All In One Course Review Plugin has been developed especially for WordPress Learning Management System. It enables you to review courses, quizzes, and lessons.
+msgid ""
+msgstr ""
+
+"Project-Id-Version: All In One Course Review 1.0.0 \n"
+"POT-Creation-Date: 2022-05-29 14:31+0530\n"
+"PO-Revision-Date: 2022-05-29 14:31+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Plugin Name of the plugin
+msgid "All In One Course Review"
+msgstr ""
+
+#. Description of the plugin
+msgid "All In One Course Review Plugin has been developed especially for WordPress Learning Management System. It enables you to review courses, quizzes, and lessons."
+msgstr ""
+
+#. Author of the plugin
+msgid "WorldWin Coder Pvt Ltd"
+msgstr ""
+
+#: all-in-one-course-review.php:81
+msgid "Get Pro"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:67
+msgid "All In One Course Review"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:81
+msgid "All Reviews"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:95
+msgid "Pending Reviews"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:108
+msgid "Trash Reviews"
+msgstr ""
+
+
+#: include/class-aiocr-admin-menu.php:121
+msgid "Settings"
+msgstr ""
+
+
+#: include/class-aiocr-admin-menu.php:131
+msgid "All In One Course Review Plugin not activated. Please activate LearnDash plugin!"
+msgstr ""
+
+
+#: include/class-aiocr-admin-menu.php:155
+msgid "ID"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:156
+msgid "Review Heading"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:157
+msgid "Review Description"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:158
+msgid "Rating"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:159
+msgid "Date"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:160
+msgid "Course"
+msgstr ""
+
+#: include/class-aiocr-admin-menu.php:166
+msgid "No Feedback & Review Found"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:52
+msgid "Course Reviews & Rating"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:56
+msgid "Write a review"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:82
+msgid "average based on 1 review"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:86
+msgid "average based on"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:89
+msgid "No review yet"
+msgstr ""
+
+#: include/class-aiocr-get-all-review-rating.php:255
+msgid "No review yet"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:76
+msgid "Thank You for review"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:78
+msgid "Sytem Error, No Changes"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:103
+msgid "Thank You for review"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:105
+msgid "Sytem Error, No Changes"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:109
+msgid "Please give rating"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:112
+msgid "No More Fun Please!!!!"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:115
+msgid "Review Description is empty"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:118
+msgid "Review Heading is empty"
+msgstr ""
+
+#: public/class-aiocr-form-ajax-data.php:121
+msgid "No More Fun Please!!!!"
+msgstr ""
